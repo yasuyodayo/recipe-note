@@ -9,19 +9,16 @@
 </head>
 <body>
     <div id="header"></div>
-
     <script>
-        fetch('header.html')
+        fetch('../header.html')
           .then(response => response.text())
-          .then(data => {
-              document.getElementById('header').innerHTML = data;
-          });
+          .then(data => document.getElementById('header').innerHTML = data);
     </script>
 
     <div class="recipe-head">
         </div>
 
-    <a href="お菓子/チャンククッキー.html">チャンククッキー</a>
+    <a href="recipe/チャンククッキー.html">チャンククッキー</a>
 
 </body>
 </html>
