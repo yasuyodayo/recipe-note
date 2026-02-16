@@ -1,5 +1,11 @@
+/* 全体に適用 */
 body {
-    font-family: 'Hannotate SC';
+    font-family: "Zen Kurenaido", sans-serif !important;
+}
+
+/* header.html にスタイルが直接書かれている場合に備えて */
+#header, #header *, header, nav, a {
+    font-family: "Zen Kurenaido", sans-serif !important;
 }
 
 .recipe-head {
